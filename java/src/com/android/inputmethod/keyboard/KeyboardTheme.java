@@ -44,7 +44,8 @@ public final class KeyboardTheme implements Comparable<KeyboardTheme> {
     public static final int THEME_ID_LXX_DARK = 4;
     public static final int THEME_ID_AUTO_DARK = 5;
     public static final int THEME_ID_HS_DARK = 6;
-    public static final int THEME_ID_BLACKOUT = 7;
+    public static final int THEME_ID_HS_LIGHT = 7;
+    public static final int THEME_ID_BLACKOUT = 8;
     public static final int DEFAULT_THEME_ID = THEME_ID_AUTO_DARK;
 
     private static KeyboardTheme[] AVAILABLE_KEYBOARD_THEMES;
@@ -66,6 +67,9 @@ public final class KeyboardTheme implements Comparable<KeyboardTheme> {
         new KeyboardTheme(THEME_ID_AUTO_DARK, "AutoDark", 0,
                 Build.VERSION_CODES.Q),
         new KeyboardTheme(THEME_ID_HS_DARK, "HSDark", R.style.KeyboardTheme_HS_Dark,
+                // This has never been selected as default theme.
+                VERSION_CODES.BASE),
+        new KeyboardTheme(THEME_ID_HS_LIGHT, "HSLight", R.style.KeyboardTheme_HS_Light,
                 // This has never been selected as default theme.
                 VERSION_CODES.BASE),
         new KeyboardTheme(THEME_ID_BLACKOUT, "Blackout", R.style.KeyboardTheme_Blackout,

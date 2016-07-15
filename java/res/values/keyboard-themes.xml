@@ -26,6 +26,7 @@
         <item>@string/keyboard_theme_holo_white</item>
         <item>@string/keyboard_theme_holo_blue</item>
         <item>@string/keyboard_theme_hardslog_dark</item>
+        <item>@string/keyboard_theme_hardslog_light</item>
         <item>@string/keyboard_theme_blackout</item>
     </string-array>
     <!-- An element must be a keyboard theme id of
@@ -38,5 +39,6 @@
         <item>0</item>
         <item>6</item>
         <item>7</item>
+        <item>8</item>
     </integer-array>
 </resources>
