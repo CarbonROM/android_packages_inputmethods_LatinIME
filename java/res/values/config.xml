@@ -27,8 +27,8 @@
     <!-- Preferable keyboard height in absolute scale: 1.285in -->
     <!-- This config_default_keyboard_height value should match with keyboard-heights.xml -->
     <dimen name="config_default_keyboard_height">205.6dp</dimen>
-    <fraction name="config_max_keyboard_height">46%p</fraction>
-    <fraction name="config_min_keyboard_height">-61.8%p</fraction>
+    <fraction name="config_max_keyboard_height">52%p</fraction>
+    <fraction name="config_min_keyboard_height">-47.8%p</fraction>
 
     <dimen name="config_more_keys_keyboard_key_height">52.8dp</dimen>
     <!-- Amount of allowance for selecting keys in a mini popup keyboard by sliding finger. -->
@@ -38,8 +38,8 @@
 
     <fraction name="config_keyboard_top_padding_holo">2.335%p</fraction>
     <fraction name="config_keyboard_bottom_padding_holo">4.669%p</fraction>
-    <fraction name="config_key_vertical_gap_holo">6.127%p</fraction>
-    <fraction name="config_key_horizontal_gap_holo">1.739%p</fraction>
+    <fraction name="config_key_vertical_gap_holo">0.927%p</fraction>
+    <fraction name="config_key_horizontal_gap_holo">0.439%p</fraction>
     <!-- config_more_keys_keyboard_key_height x -0.5 -->
     <dimen name="config_more_keys_keyboard_vertical_correction_holo">-26.4dp</dimen>
     <dimen name="config_key_preview_offset_holo">8.0dp</dimen>
@@ -89,7 +89,7 @@
     <!-- Emoji keyboard -->
     <fraction name="config_emoji_keyboard_key_width">14.2857%p</fraction>
     <fraction name="config_emoji_keyboard_row_height">33%p</fraction>
-    <fraction name="config_emoji_keyboard_key_letter_size">68%p</fraction>
+    <fraction name="config_emoji_keyboard_key_letter_size">58%p</fraction>
     <integer name="config_emoji_keyboard_max_page_key_count">21</integer>
 
     <!-- Key codes of hardware keys that can be used to toggle the Emoji layout.
